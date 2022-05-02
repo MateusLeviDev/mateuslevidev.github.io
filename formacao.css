@@ -121,7 +121,7 @@
 }
 
 .formacao-extra li {
-    font-size: 1.125rem;
+    font-size: 1rem;
     line-height: 1.1;
     margin-bottom: 20px;
 }
@@ -146,5 +146,9 @@
     }
     .formacao-texto {
         font-size: 1.125rem;
+    }
+    .formacao-extra h3::before {
+        position: initial;
+        margin-bottom: 10px;
     }
 }
