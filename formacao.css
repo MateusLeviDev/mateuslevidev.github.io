@@ -90,34 +90,22 @@
     position: relative;
 }
 
-.formacao-extra .cursos h3::before {
+.formacao-extra h3::before {
     content: "";
     display: block;
-    width: 15px;
-    height: 20px;
-    background: url(img/cursos.svg) no-repeat center center;
+    width: 24px;
+    height: 24px;
     position: absolute;
-    left: -27px;
+    left: -36px;
     top: -4px;
-}
-
-.formacao-extra .idiomas h3::before {
-    content: "";
-    display: block;
-    width: 20px;
-    height: 19px;
-    background: url(img/idiomas.svg) no-repeat center center;
-    position: absolute;
-    left: -32px;
-    top: -4px;
-}
-
-.cursos h3::before {
-    background: url(img/cursos.svg);
 }
 
 .idiomas h3::before {
-    background: url(img/idiomas.svg);
+    background: url(img/lang.svg) no-repeat center center;
+}
+
+.cursos h3::before {
+    background: url(img/book.svg) no-repeat center center;
 }
 
 .formacao-extra li {
